@@ -2,11 +2,11 @@
 
 function fullName (firstName, lastName) {
 
-    return fullName = {
+    return {
         firstName,
         lastName
     }
 
 }
 
-module.exports = fullName();
+module.exports = {fullName};
