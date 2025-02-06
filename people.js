@@ -5,9 +5,12 @@ const hobbies = require('./hobbies.js');
 
 function createPerson () {
 
+    let personName = fullName('Lorenzo', 'Ferrante');
+    let personHobbies = hobbies('Videogame', 'Space', 'Code');
+
     return {
-        fullName: fullName.fullName('Lorenzo', 'Ferrante'),
-        hobbies: hobbies.hobbies('Videogame', 'space', 'code')
+        personName,
+        personHobbies
     }
 }
 
